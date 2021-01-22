@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1609675684",
+        "python_version": "3.8.5 (default, Jul 28 2020, 12:59:40) \n[GCC 9.3.0]",
+        "command_line_arguments": "/home/rod/.local/bin/mlagents-learn trainer_config_push_cube.yaml --run-id=PushBlockThirteen --resume",
+        "mlagents_version": "0.22.0",
+        "mlagents_envs_version": "0.22.0",
+        "communication_protocol_version": "1.2.0",
+        "pytorch_version": "1.7.0",
+        "numpy_version": "1.18.0",
+        "end_time_seconds": "1609675694"
+    },
+    "total": 10.038802372990176,
+    "count": 1,
+    "self": 0.0381530630402267,
+    "children": {
+        "run_training.setup": {
+            "total": 0.05829685600474477,
+            "count": 1,
+            "self": 0.05829685600474477
+        },
+        "TrainerController.start_learning": {
+            "total": 9.942352453945205,
+            "count": 1,
+            "self": 0.00030542106833308935,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 9.941987177007832,
+                    "count": 1,
+                    "self": 9.941987177007832
+                },
+                "trainer_threads": {
+                    "total": 2.444954589009285e-06,
+                    "count": 1,
+                    "self": 2.444954589009285e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 5.7410914450883865e-05,
+                    "count": 1,
+                    "self": 5.7410914450883865e-05
+                }
+            }
+        }
+    }
+}
