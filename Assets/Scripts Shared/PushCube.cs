@@ -46,13 +46,16 @@ public class PushCube : MonoBehaviour
             // NOT WORKING
             if (CubeRbody.velocity != Vector3.zero) {
                 // Set constraints to keep hovering
-                CubeRbody.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ | RigidbodyConstraints.FreezeRotationY;
+                CubeRbody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ | RigidbodyConstraints.FreezeRotationY;
+                CubeRbody.angularDrag = 1;
                 cube.transform.rotation = Quaternion.LookRotation(CubeRbody.velocity, Vector3.up);
             }
         }
         // agent is no longer close to cube - reset everything
         else if (cube != null && Vector3.Distance(cube.transform.position, transform.position) >= 1.3f)  {
             NearCube = false;
+            CubeRbody.angularDrag = 0.05f;
+            CubeRbody.constraints = RigidbodyConstraints.None;
             AnimationController.IsPushing = false;
         }
     }
