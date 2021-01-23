@@ -1,0 +1,24 @@
+{
+    "AgentPushCube": {
+        "checkpoints": [
+            {
+                "steps": 8496,
+                "file_path": "results/Agent-1-1/AgentPushCube/AgentPushCube-8496.onnx",
+                "reward": 0.16666695599754652,
+                "creation_time": 1611432336.6522014
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 8496,
+            "file_path": "results/Agent-1-1/AgentPushCube.onnx",
+            "reward": 0.16666695599754652,
+            "creation_time": 1611432336.6522014
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.22.0",
+        "torch_version": "1.7.0",
+        "tensorflow_version": -1
+    }
+}
