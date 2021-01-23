@@ -8,6 +8,7 @@ public class AgentHealth : MonoBehaviour
 	public float Delay;
 	private bool CountDown;
 	private float DelayTimerMuliplier;
+	public bool SuspendHealth;
 
 
 	// general approach:
@@ -29,7 +30,7 @@ public class AgentHealth : MonoBehaviour
 
 	void Update ()
 	{
-		if (CountDown) {
+		if (CountDown && SuspendHealth == false) {
 			DelayTimer ();
 		}
 	}

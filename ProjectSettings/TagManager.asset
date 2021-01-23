@@ -28,6 +28,8 @@ TagManager:
   - badFood
   - food
   - cube
+  - cranemagnet
+  - bay_agent_1
   layers:
   - Default
   - TransparentFX
