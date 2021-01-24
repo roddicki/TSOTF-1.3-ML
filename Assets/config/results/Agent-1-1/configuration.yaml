@@ -1,6 +1,6 @@
 default_settings: null
 behaviors:
-  PushBlockAgent:
+  AgentPushCube:
     trainer_type: ppo
     hyperparameters:
       batch_size: 128
@@ -50,8 +50,8 @@ checkpoint_settings:
   run_id: Agent-1-1
   initialize_from: null
   load_model: false
-  resume: false
-  force: true
+  resume: true
+  force: false
   train_model: false
   inference: false
 debug: false

@@ -35,7 +35,7 @@ public class MoveGantry : MonoBehaviour {
         TargetCubeX = transform.position.x; 
         // get the Crane <MoveCrane>    
         Crane = GameObject.Find("Crane").GetComponent<MoveCrane>();
-        Crane.Test("Hello from Gantry");
+        //Crane.Test("Hello from Gantry");
         // get the Crane Magnet
         CraneMagnet = GameObject.Find("CraneMagnet").GetComponent<CraneMagnet>();
 

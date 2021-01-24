@@ -2,17 +2,41 @@
     "AgentPushCube": {
         "checkpoints": [
             {
-                "steps": 8496,
-                "file_path": "results/Agent-1-1/AgentPushCube/AgentPushCube-8496.onnx",
-                "reward": 0.16666695599754652,
-                "creation_time": 1611432336.6522014
+                "steps": 2835124,
+                "file_path": "results/Agent-1-1/AgentPushCube/AgentPushCube-2835124.onnx",
+                "reward": null,
+                "creation_time": 1611508126.1838975
+            },
+            {
+                "steps": 2837428,
+                "file_path": "results/Agent-1-1/AgentPushCube/AgentPushCube-2837428.onnx",
+                "reward": null,
+                "creation_time": 1611508902.1230853
+            },
+            {
+                "steps": 2999946,
+                "file_path": "results/Agent-1-1/AgentPushCube/AgentPushCube-2999946.onnx",
+                "reward": 24.052005417644978,
+                "creation_time": 1611510213.7704527
+            },
+            {
+                "steps": 3499994,
+                "file_path": "results/Agent-1-1/AgentPushCube/AgentPushCube-3499994.onnx",
+                "reward": 14.000203348696232,
+                "creation_time": 1611513513.4264057
+            },
+            {
+                "steps": 3922508,
+                "file_path": "results/Agent-1-1/AgentPushCube/AgentPushCube-3922508.onnx",
+                "reward": null,
+                "creation_time": 1611516486.0544188
             }
         ],
         "final_checkpoint": {
-            "steps": 8496,
+            "steps": 3922508,
             "file_path": "results/Agent-1-1/AgentPushCube.onnx",
-            "reward": 0.16666695599754652,
-            "creation_time": 1611432336.6522014
+            "reward": null,
+            "creation_time": 1611516486.0544188
         }
     },
     "metadata": {
