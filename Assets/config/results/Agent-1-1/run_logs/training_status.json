@@ -2,41 +2,41 @@
     "AgentPushCube": {
         "checkpoints": [
             {
-                "steps": 2835124,
-                "file_path": "results/Agent-1-1/AgentPushCube/AgentPushCube-2835124.onnx",
+                "steps": 6999960,
+                "file_path": "results/Agent-1-1/AgentPushCube/AgentPushCube-6999960.onnx",
+                "reward": 12.711503505706787,
+                "creation_time": 1611545711.7821987
+            },
+            {
+                "steps": 7175991,
+                "file_path": "results/Agent-1-1/AgentPushCube/AgentPushCube-7175991.onnx",
                 "reward": null,
-                "creation_time": 1611508126.1838975
+                "creation_time": 1611546895.9980674
             },
             {
-                "steps": 2837428,
-                "file_path": "results/Agent-1-1/AgentPushCube/AgentPushCube-2837428.onnx",
+                "steps": 7499992,
+                "file_path": "results/Agent-1-1/AgentPushCube/AgentPushCube-7499992.onnx",
                 "reward": null,
-                "creation_time": 1611508902.1230853
+                "creation_time": 1611573670.0972157
             },
             {
-                "steps": 2999946,
-                "file_path": "results/Agent-1-1/AgentPushCube/AgentPushCube-2999946.onnx",
-                "reward": 24.052005417644978,
-                "creation_time": 1611510213.7704527
+                "steps": 7999991,
+                "file_path": "results/Agent-1-1/AgentPushCube/AgentPushCube-7999991.onnx",
+                "reward": 19.000605173408985,
+                "creation_time": 1611576658.6076922
             },
             {
-                "steps": 3499994,
-                "file_path": "results/Agent-1-1/AgentPushCube/AgentPushCube-3499994.onnx",
-                "reward": 14.000203348696232,
-                "creation_time": 1611513513.4264057
-            },
-            {
-                "steps": 3922508,
-                "file_path": "results/Agent-1-1/AgentPushCube/AgentPushCube-3922508.onnx",
-                "reward": null,
-                "creation_time": 1611516486.0544188
+                "steps": 8000311,
+                "file_path": "results/Agent-1-1/AgentPushCube/AgentPushCube-8000311.onnx",
+                "reward": 19.000605173408985,
+                "creation_time": 1611576658.7222755
             }
         ],
         "final_checkpoint": {
-            "steps": 3922508,
+            "steps": 8000311,
             "file_path": "results/Agent-1-1/AgentPushCube.onnx",
-            "reward": null,
-            "creation_time": 1611516486.0544188
+            "reward": 19.000605173408985,
+            "creation_time": 1611576658.7222755
         }
     },
     "metadata": {

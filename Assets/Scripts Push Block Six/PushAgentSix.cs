@@ -89,26 +89,30 @@ public class PushAgentSix : Agent
                 break;
         }
         
+        // only included for training
+        transform.Rotate (rotateDir, Time.fixedDeltaTime * 200.0f);
+		AgentRb.AddForce (dirToGo * speed, ForceMode.Force);
+
         // animate agent
-        AnimationController.UpdateAnimatorDirection(AnimationController.calculateDirection());
-        AnimationController.UpdateAnimator(AnimationController.CalculateSpeed());
+        //AnimationController.UpdateAnimatorDirection(AnimationController.calculateDirection());
+        //AnimationController.UpdateAnimator(AnimationController.CalculateSpeed());
 
 		// move agent
 		// if health over 200 keep moving
-		if(agentHealth.Health >= 200f) {
-            AnimationController.IsPanting = false;
-			transform.Rotate (rotateDir, Time.fixedDeltaTime * 200.0f);
-			AgentRb.AddForce (dirToGo * speed, ForceMode.Force);
-		} 
-		// if less than 200 pant
-		else if(agentHealth.Health < 200.0f && agentHealth.Health >= 100.0f) {
-			AnimationController.IsPanting = true;
-		}
-		// if less than 100 prone
-		else if(agentHealth.Health < 100.0f) {
-            //AnimationController.IsPanting = false;
-			AnimationController.MakeProne ();
-		}
+		// if(agentHealth.Health >= 200f) {
+        //     AnimationController.IsPanting = false;
+		// 	transform.Rotate (rotateDir, Time.fixedDeltaTime * 200.0f);
+		// 	AgentRb.AddForce (dirToGo * speed, ForceMode.Force);
+		// } 
+		// // if less than 200 pant
+		// else if(agentHealth.Health < 200.0f && agentHealth.Health >= 100.0f) {
+		// 	AnimationController.IsPanting = true;
+		// }
+		// // if less than 100 prone
+		// else if(agentHealth.Health < 100.0f) {
+        //     //AnimationController.IsPanting = false;
+		// 	AnimationController.MakeProne ();
+		// }
 
     }
 
@@ -189,7 +193,7 @@ public class PushAgentSix : Agent
 
         //GameObject[] cubes = GameObject.FindGameObjectsWithTag("block");
         foreach (var cube in cubes) {
-            cube.transform.position = ground.transform.position + new Vector3(Random.Range(5, -5), 1f, Random.Range(5, -5));
+            cube.transform.position = ground.transform.position + new Vector3(Random.Range(19, -19), 1f, Random.Range(19, -19));
         }
     }
 
