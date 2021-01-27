@@ -90,29 +90,29 @@ public class PushAgentSix : Agent
         }
         
         // only included for training
-        transform.Rotate (rotateDir, Time.fixedDeltaTime * 200.0f);
-		AgentRb.AddForce (dirToGo * speed, ForceMode.Force);
+        // transform.Rotate (rotateDir, Time.fixedDeltaTime * 200.0f);
+		// AgentRb.AddForce (dirToGo * speed, ForceMode.Force);
 
         // animate agent
-        //AnimationController.UpdateAnimatorDirection(AnimationController.calculateDirection());
-        //AnimationController.UpdateAnimator(AnimationController.CalculateSpeed());
+        AnimationController.UpdateAnimatorDirection(AnimationController.calculateDirection());
+        AnimationController.UpdateAnimator(AnimationController.CalculateSpeed());
 
-		// move agent
-		// if health over 200 keep moving
-		// if(agentHealth.Health >= 200f) {
-        //     AnimationController.IsPanting = false;
-		// 	transform.Rotate (rotateDir, Time.fixedDeltaTime * 200.0f);
-		// 	AgentRb.AddForce (dirToGo * speed, ForceMode.Force);
-		// } 
-		// // if less than 200 pant
-		// else if(agentHealth.Health < 200.0f && agentHealth.Health >= 100.0f) {
-		// 	AnimationController.IsPanting = true;
-		// }
-		// // if less than 100 prone
-		// else if(agentHealth.Health < 100.0f) {
-        //     //AnimationController.IsPanting = false;
-		// 	AnimationController.MakeProne ();
-		// }
+		//move agent
+		//if health over 200 keep moving
+		if(agentHealth.Health >= 200f) {
+            AnimationController.IsPanting = false;
+			transform.Rotate (rotateDir, Time.fixedDeltaTime * 200.0f);
+			AgentRb.AddForce (dirToGo * speed, ForceMode.Force);
+		} 
+		// if less than 200 pant
+		else if(agentHealth.Health < 200.0f && agentHealth.Health >= 100.0f) {
+			AnimationController.IsPanting = true;
+		}
+		// if less than 100 prone
+		else if(agentHealth.Health < 100.0f) {
+            //AnimationController.IsPanting = false;
+			AnimationController.MakeProne ();
+		}
 
     }
 
@@ -191,9 +191,18 @@ public class PushAgentSix : Agent
             }
         }
 
+        
         //GameObject[] cubes = GameObject.FindGameObjectsWithTag("block");
         foreach (var cube in cubes) {
-            cube.transform.position = ground.transform.position + new Vector3(Random.Range(19, -19), 1f, Random.Range(19, -19));
+            // avoid the goal
+            // if x is greater than less than -14
+            // z is less than 6 and greater than 0
+            int x = Random.Range(-19, 19);
+            int z = Random.Range(-19, 19);
+            if (x < -14 && z < 6 && z > 0) {
+                x += 6;
+            }
+            cube.transform.position = ground.transform.position + new Vector3(x, 1f, z);
         }
     }
 

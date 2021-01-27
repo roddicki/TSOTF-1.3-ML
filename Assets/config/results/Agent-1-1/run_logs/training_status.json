@@ -2,12 +2,6 @@
     "AgentPushCube": {
         "checkpoints": [
             {
-                "steps": 6999960,
-                "file_path": "results/Agent-1-1/AgentPushCube/AgentPushCube-6999960.onnx",
-                "reward": 12.711503505706787,
-                "creation_time": 1611545711.7821987
-            },
-            {
                 "steps": 7175991,
                 "file_path": "results/Agent-1-1/AgentPushCube/AgentPushCube-7175991.onnx",
                 "reward": null,
@@ -30,13 +24,19 @@
                 "file_path": "results/Agent-1-1/AgentPushCube/AgentPushCube-8000311.onnx",
                 "reward": 19.000605173408985,
                 "creation_time": 1611576658.7222755
+            },
+            {
+                "steps": 8000311,
+                "file_path": "results/Agent-1-1/AgentPushCube/AgentPushCube-8000311.onnx",
+                "reward": null,
+                "creation_time": 1611614447.4159057
             }
         ],
         "final_checkpoint": {
             "steps": 8000311,
             "file_path": "results/Agent-1-1/AgentPushCube.onnx",
-            "reward": 19.000605173408985,
-            "creation_time": 1611576658.7222755
+            "reward": null,
+            "creation_time": 1611614447.4159057
         }
     },
     "metadata": {

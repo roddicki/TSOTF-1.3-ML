@@ -1,0 +1,48 @@
+{
+    "AgentPushCube": {
+        "checkpoints": [
+            {
+                "steps": 2499984,
+                "file_path": "results/Agent-1-3/AgentPushCube/AgentPushCube-2499984.onnx",
+                "reward": null,
+                "creation_time": 1611655503.2716014
+            },
+            {
+                "steps": 2999952,
+                "file_path": "results/Agent-1-3/AgentPushCube/AgentPushCube-2999952.onnx",
+                "reward": null,
+                "creation_time": 1611658517.912738
+            },
+            {
+                "steps": 3499991,
+                "file_path": "results/Agent-1-3/AgentPushCube/AgentPushCube-3499991.onnx",
+                "reward": null,
+                "creation_time": 1611661528.6212773
+            },
+            {
+                "steps": 3999951,
+                "file_path": "results/Agent-1-3/AgentPushCube/AgentPushCube-3999951.onnx",
+                "reward": -0.9996000453829765,
+                "creation_time": 1611664549.031643
+            },
+            {
+                "steps": 4377951,
+                "file_path": "results/Agent-1-3/AgentPushCube/AgentPushCube-4377951.onnx",
+                "reward": null,
+                "creation_time": 1611670259.3939917
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 4377951,
+            "file_path": "results/Agent-1-3/AgentPushCube.onnx",
+            "reward": null,
+            "creation_time": 1611670259.3939917
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.22.0",
+        "torch_version": "1.7.0",
+        "tensorflow_version": -1
+    }
+}
