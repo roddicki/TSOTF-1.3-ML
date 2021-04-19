@@ -55,7 +55,8 @@ public class PushCube : MonoBehaviour
         else if (cube != null && Vector3.Distance(cube.transform.position, transform.position) >= 1.3f)  {
             NearCube = false;
             CubeRbody.angularDrag = 0.05f;
-            CubeRbody.constraints = RigidbodyConstraints.None;
+            // un freeze constraints
+            //CubeRbody.constraints = RigidbodyConstraints.None;
             AnimationController.IsPushing = false;
         }
     }
