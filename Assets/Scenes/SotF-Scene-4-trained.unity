@@ -726,7 +726,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &89307203
 Transform:
   m_ObjectHideFlags: 0
@@ -1054,7 +1054,7 @@ MonoBehaviour:
   goal: 0
   goalCount: 0
   ownGoal: 0
-  Agent: {fileID: 1039348151}
+  Agent: {fileID: 1583175275}
 --- !u!65 &105455251
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1643,131 +1643,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f1c39d89ca2fee30ae9f04381f43930, type: 3}
---- !u!1 &176622935
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 176622936}
-  - component: {fileID: 176622941}
-  - component: {fileID: 176622940}
-  - component: {fileID: 176622939}
-  - component: {fileID: 176622938}
-  - component: {fileID: 176622937}
-  m_Layer: 0
-  m_Name: Bay-Agent-1 (1)
-  m_TagString: bay_agent_1
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!4 &176622936
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 176622935}
-  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -12.7932, y: -1.379, z: 7.991}
-  m_LocalScale: {x: -2.4780002, y: 1, z: -2.5199997}
-  m_Children: []
-  m_Father: {fileID: 431565183}
-  m_RootOrder: 27
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!114 &176622937
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 176622935}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60fb9a5fbc45771b4aa3dc633be0cd69, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ground: {fileID: 747594716}
-  goalScoredMaterial: {fileID: 2100000, guid: ca75b2f1436f713429b5f02da6482dea, type: 2}
---- !u!114 &176622938
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 176622935}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a1bab61fbd16b34792cfabb4382291f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  goal: 0
-  goalCount: 0
-  ownGoal: 0
-  Agent: {fileID: 1039348151}
---- !u!65 &176622939
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 176622935}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.0000002, y: 10.151888, z: 2.0000002}
-  m_Center: {x: 0, y: 3.7054043, z: -0}
---- !u!23 &176622940
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 176622935}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 442ce6dbe525ec76fb32db2f8b7445f6, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &176622941
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 176622935}
-  m_Mesh: {fileID: 4300000, guid: 52a603d2dd6a4d8408cf838e55897b48, type: 3}
 --- !u!1 &181080191 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1046050061804664117, guid: 0a9c78cbbc2f90bbdbb73f9a5cd876f6,
@@ -4621,7 +4496,6 @@ Transform:
   - {fileID: 1123385905}
   - {fileID: 372827582}
   - {fileID: 590758980}
-  - {fileID: 176622936}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7068,7 +6942,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &658204843
 Transform:
   m_ObjectHideFlags: 0
@@ -10154,7 +10028,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &973762292
 Transform:
   m_ObjectHideFlags: 0
@@ -14639,7 +14513,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1339103311
 Transform:
   m_ObjectHideFlags: 0
@@ -15099,7 +14973,7 @@ MonoBehaviour:
   goal: 0
   goalCount: 0
   ownGoal: 0
-  Agent: {fileID: 1039348151}
+  Agent: {fileID: 1478765400}
 --- !u!65 &1354870425
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18117,13 +17991,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1491943138}
-  m_LocalRotation: {x: -0.045767248, y: 0.9630307, z: -0.19549686, w: -0.1796059}
-  m_LocalPosition: {x: -0.6, y: 9.35, z: 22.15}
+  m_LocalRotation: {x: -0.10669305, y: 0.78812826, z: -0.12628193, w: -0.592894}
+  m_LocalPosition: {x: 7.4, y: 8.4, z: 15.36}
   m_LocalScale: {x: 1.5, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 23.14, y: 200.9, z: -1.1170001}
+  m_LocalEulerAnglesHint: {x: 19, y: 253.72, z: -1.1170001}
 --- !u!1 &1493660274 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5897776979420582458, guid: 0a9c78cbbc2f90bbdbb73f9a5cd876f6,
@@ -21830,7 +21704,7 @@ MonoBehaviour:
   goal: 0
   goalCount: 0
   ownGoal: 0
-  Agent: {fileID: 1039348151}
+  Agent: {fileID: 525184885}
 --- !u!65 &1756663101
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24728,7 +24602,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2049233666
 Transform:
   m_ObjectHideFlags: 0
