@@ -1,0 +1,48 @@
+{
+    "PushBlockAgent3": {
+        "checkpoints": [
+            {
+                "steps": 22499981,
+                "file_path": "results/PushBlockAgent-3-1/PushBlockAgent3/PushBlockAgent3-22499981.onnx",
+                "reward": null,
+                "creation_time": 1612428365.7403884
+            },
+            {
+                "steps": 22999971,
+                "file_path": "results/PushBlockAgent-3-1/PushBlockAgent3/PushBlockAgent3-22999971.onnx",
+                "reward": 24.00012132152915,
+                "creation_time": 1612431241.813446
+            },
+            {
+                "steps": 23499964,
+                "file_path": "results/PushBlockAgent-3-1/PushBlockAgent3/PushBlockAgent3-23499964.onnx",
+                "reward": 9.000415563583374,
+                "creation_time": 1612434130.4317799
+            },
+            {
+                "steps": 23999961,
+                "file_path": "results/PushBlockAgent-3-1/PushBlockAgent3/PushBlockAgent3-23999961.onnx",
+                "reward": null,
+                "creation_time": 1612437009.6182528
+            },
+            {
+                "steps": 24000025,
+                "file_path": "results/PushBlockAgent-3-1/PushBlockAgent3/PushBlockAgent3-24000025.onnx",
+                "reward": null,
+                "creation_time": 1612437009.6959612
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 24000025,
+            "file_path": "results/PushBlockAgent-3-1/PushBlockAgent3.onnx",
+            "reward": null,
+            "creation_time": 1612437009.6959612
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.22.0",
+        "torch_version": "1.7.0",
+        "tensorflow_version": -1
+    }
+}
