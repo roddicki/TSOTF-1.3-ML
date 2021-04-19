@@ -29,7 +29,7 @@ public class PushAgentSix : Agent
         AnimationController = GetComponent<AnimateMe>();
         GoalDetect = goal.GetComponent<GoalDetect>();
         ChangeGround = goal.GetComponent<ChangeGroundMaterial>();
-        speed = 550;
+        speed = 350;
     }
 
     public override void Initialize()
